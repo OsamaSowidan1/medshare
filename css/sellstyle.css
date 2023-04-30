@@ -1,0 +1,49 @@
+body{
+    background-color: white;
+}
+.cont {
+    margin: 8% 15% 15% 15%;
+    border: 1px solid;
+}
+
+.logo1{
+    position: fixed;
+    height: 10vh;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 28px 12%;
+    transition: all .50s ease;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+} 
+.header {
+    border-bottom: 1px solid;
+    padding: 1%;
+}
+
+.label {
+    padding: 1% 2% 0 0;
+}
+.btnn{
+    margin-right: 2%;
+    margin-bottom: 4%;
+    background-color: #0496ff;
+}
+.txt{
+    width: 90%;
+    margin-right: 2%;
+}
+.r{
+    margin-right: 2%;
+}
+
+.padd{
+    margin-top: 1%;
+}
+.last{
+    margin-bottom: 1%;
+}

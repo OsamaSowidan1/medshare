@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #0494fc, 60%, rgb(250, 250, 250));
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px gray;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(to bottom, #164e4e, 60%, rgb(250, 250, 250));
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-image: linear-gradient(to bottom, rgb(250, 250, 250), 60%, #0494fc);
+}
+
+
+/* header {
+    background-color: #0496ff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+} */
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding: 20px; */
+    /* max-width: 1200px; */
+    margin:  auto;
+    margin-top: 6%;
+}
+
+.card {
+    
+    max-width: 200px;
+    margin: 20px;
+    padding-top: 3%;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.card img {
+    max-width: 50%;
+    max-height: 150px;
+    object-fit: fill;
+    border-radius: 5px 5px 0 0;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin: 20px;
+    color: #333;
+}
+
+/* .card p {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #666;
+    margin: 0 20px 20px;
+} */
+
+.btn-donate {
+    background-color: #0496ff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 20px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-donate a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn-donate:hover {
+    background-color: #31cb00;
+}
+
+/* responsive styles */
+@media screen and (min-width: 768px) {
+    .container {
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
